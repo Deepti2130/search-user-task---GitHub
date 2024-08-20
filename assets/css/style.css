@@ -1,0 +1,86 @@
+   
+    .urlcss {
+        text-align: left;
+        background-color: blueviolet;
+        color: #fff;
+        font-size: 22px; 
+        font-weight: 500; 
+        display: flex;
+        border-radius: 20px;
+        
+    }
+
+
+
+.form-control{
+  background-color: blueviolet!important;
+  border-color: blueviolet;
+  color: white;
+  
+}
+.form-control:active,
+.form-control:focus,
+.form-control:focus:active {
+  background-color: blueviolet!important;
+  border-color: blueviolet;
+  color: white;
+  
+}
+
+.user-card{
+    display:flex;
+    flex-direction: row; 
+    margin-bottom: 15px;
+   
+}
+
+.form-control::placeholder {
+    color: #fff;
+    opacity: 1; 
+  }
+
+.avatar-img img{
+    width:70%;
+    border-radius: 50%;
+    /* border: 5px solid red; */
+    margin-top: 10px;
+    margin-left: 12px;
+}
+
+.userinfo h3{
+    text-transform: capitalize;
+    font-size: 24px;
+    margin-bottom: 10px;
+    font-weight: 600;
+    margin-top: 10px;
+}
+.userinfo {
+    width: 100%;
+}
+.userinfo p{
+    margin-bottom: 14px;
+    font-size: 16px;
+}
+
+.userinfo p a{
+    font-size: 16px; 
+    color: #fff; 
+    background-color: blue;
+    margin-left: 10px;
+}
+
+.repocss{
+    background-color: rgb(57, 57, 210);
+    padding: 5px 10px;
+    
+}
+
+.spancss{
+    margin-left: 5%;
+}
+
+ 
+
+
+
+
